@@ -1,0 +1,3 @@
+[submodule "assets/lambda/SlackAppService"]
+	path = assets/lambda/SlackAppService
+	url = https://github.com/yuchia329/SlackAppService.git

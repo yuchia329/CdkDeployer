@@ -1,5 +1,5 @@
 {
-  "name": "slack_listener",
+  "name": "slack_app_service",
   "version": "0.1.0",
   "bin": {
     "slack_listener": "bin/slack_listener.js"
@@ -21,7 +21,11 @@
     "typescript": "~3.9.7"
   },
   "dependencies": {
-    "@aws-cdk/core": "1.108.0",
+    "@aws-cdk/aws-apigateway": "^1.108.1",
+    "@aws-cdk/aws-apigatewayv2": "^1.108.1",
+    "@aws-cdk/aws-certificatemanager": "^1.108.1",
+    "@aws-cdk/aws-lambda": "^1.108.1",
+    "@aws-cdk/core": "^1.108.1",
     "source-map-support": "^0.5.16"
   }
 }
